@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 320px) and (max-width:769px){
+    
+    header>div>img{
+        display: none;
+
+    }
+    header>div>h1{
+        display: none;
+    }
+
+    header{
+        padding-top: 8px;
+        height: 50px;
+    }
+
+    header>button{
+        width: 70px;
+        height: 32px;
+    }
+    
+    section.direita{
+       width: 65vw;
+    }
+    section.direita>h1{
+        font-size: 2.3em;
+    }
+
+    section> button{
+        width: 120px;
+        height: 42px;
+    }
+
+    section.esquerda{
+        width: 35vw;
+    }
+    section.esquerda>div>img{
+        width: 140px;
+    }
+
+
+}
